@@ -33,4 +33,4 @@ Want to try out multiclass classification in practice? Let’s build a model tha
 
 For our example, we’ll use a dataset included with Scikit-learn: the Optical Recognition of Handwritten Digits dataset from the University of California, Irvine. It contains nearly 1,800 digit samples, each represented as an 8 × 8 grid of values ranging from 0 to 16, where higher values correspond to darker pixels.
 
-We’ll apply logistic regression to make predictions with this data. Figure 3-7 displays the first 50 digits from the dataset
+We’ll apply logistic regression to make predictions with this data.
