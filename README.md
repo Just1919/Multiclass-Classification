@@ -26,3 +26,11 @@ You don’t need to worry about these details to train a multiclass classifier, 
 In short: all Scikit-learn classifiers can handle both binary and multiclass classification, which keeps your code simple and lets you focus on building and training your models rather than dealing with the algorithm’s internal mechanics.
 
 ### Building a Digit Recognition Model
+
+
+
+Want to try out multiclass classification in practice? Let’s build a model that looks at scanned images of handwritten digits and predicts which digit (0–9) each image represents. The U.S. Postal Service developed a similar system years ago to recognize handwritten ZIP codes as part of their mail-sorting automation.
+
+For our example, we’ll use a dataset included with Scikit-learn: the Optical Recognition of Handwritten Digits dataset from the University of California, Irvine. It contains nearly 1,800 digit samples, each represented as an 8 × 8 grid of values ranging from 0 to 16, where higher values correspond to darker pixels.
+
+We’ll apply logistic regression to make predictions with this data. Figure 3-7 displays the first 50 digits from the dataset
